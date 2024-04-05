@@ -1,1 +1,9 @@
-ola
+<div id="logs">
+    {% for log in itens %}
+    <p>
+        Endereço: {{log['endereco']}}<br>
+        Método: {{log['metodo']}}<br>
+        Hora: {{log['hora']}}<br>
+    </p>
+    {% endfor %}
+</div>

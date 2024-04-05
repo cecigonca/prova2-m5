@@ -11,6 +11,7 @@ def register_info():
         "metodo": request.method,
         "hora": datetime.now()
     })
+    print(logs)
 
 @app.route('/ping', methods=['GET'])
 def ping():
@@ -25,7 +26,7 @@ def echo():
 
 @app.route('/info')
 def info():
-    return render_template('info.html')
+    return render_template('info.html', itens=logs)
 
 @app.route('/dash')
 def dash():
