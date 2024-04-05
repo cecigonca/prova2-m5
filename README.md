@@ -29,9 +29,11 @@ Na janela do terminal digite os seguintes comandos para cada dependência
 
 **Descricão de Pastas e Arquivos**
 - Pastas
+
 **templates:**  pasta onde ficam todos os templates html da aplicação
 **static:**  pasta que contém imagens e arquivos de estilização
 - Arquivos
+
 **app.py:** arquivo principal da aplicação
 **dash.html:** arquivo que apresenta as requisições
 **info.html:** arquivo de dados armazenados
